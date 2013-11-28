@@ -1,0 +1,20 @@
+{
+    "name": "AeroDoc Chrome",
+    "description": "AeroDoc web build for Chrome",
+    "version": "0.1",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "permissions": [
+        "pushMessaging", 
+        "storage",
+        "http://push-sblanc.rhcloud.com/"
+    ],
+    "icons": {
+        "16": "aerogear_icon_16px.png",
+        "128": "aerogear_icon_128px.png"
+    }
+}
